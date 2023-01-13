@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    
+}
 .main{
     display: grid;
     grid-column: repeat(4, 1fr);
@@ -8,21 +12,26 @@
     "one five six seven";
     padding: 80px;
     background-color:hsl(226, 43%, 10%);
+    color:white;
 }
 .gridAreaOne{
     grid-area: one;
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 5px;
+        
 }
 .gridAreaOne__profile{
-    background-color: rgb(68, 17, 189);
+    background-color: hsl(235, 45%, 61%);
     height: auto;
     width: auto;
-    color:white;
+    
     display: flex;
     flex-direction: column;
     align-items:flex-start;
     padding: 20px;
+    border-radius: 5px;
     
 }
 
@@ -30,10 +39,10 @@
     width: 44px;
 }
 .gridAreaOne__duration{
-    background-color: darkblue;
+    background-color: hsl(235, 46%, 20%);
     height: auto;
     width: auto;
-    color:white;
+    
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -50,19 +59,28 @@
 
 .gridAreaTwo{
     grid-area: two;
+    background-image: url(./images/icon-work.svg);
+    background-color: hsl(15, 100%, 70%);
+    
 }
 .gridAreaThree{
     grid-area: three;
+    background-color: hsl(195, 74%, 62%);
 }
 .gridAreaFour{
     grid-area: four;
+    background-color: hsl(348, 100%, 68%);
+
 }
 .gridAreaFive{
     grid-area: five;
+    background-color: hsl(145, 58%, 55%);
 }
 .gridAreaSix{
     grid-area: six;
+    background-color: hsl(264, 64%, 52%);
 }
-.gridAreaSeven{
+.girdAreaSeven{
     grid-area: seven;
+    background-color: hsl(43, 84%, 65%);
 }
