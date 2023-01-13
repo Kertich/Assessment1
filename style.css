@@ -6,34 +6,47 @@
     grid-template-areas: 
     "one two three four"
     "one five six seven";
+    padding: 80px;
+    background-color:hsl(226, 43%, 10%);
 }
 .gridAreaOne{
     grid-area: one;
-    
-    
+    display: flex;
+    flex-direction: column;    
 }
 .gridAreaOne__profile{
     background-color: rgb(68, 17, 189);
     height: auto;
     width: auto;
     color:white;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    padding: 20px;
     
 }
 
 .gridAreaOne__profile img {
     width: 44px;
-    margin: 20px;
 }
 .gridAreaOne__duration{
     background-color: darkblue;
     height: auto;
     width: auto;
     color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
 
 }
-.gridAreaOne div{
-    margin: 0px;
+.gridAreaOne__duration div{
+    padding: 10px;
 }
+.gridAreOne__duration-opacity{
+    opacity: 0.6;
+}
+
 
 .gridAreaTwo{
     grid-area: two;
