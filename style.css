@@ -10,19 +10,31 @@
 .gridAreaOne{
     grid-area: one;
     
+    
 }
 .gridAreaOne__profile{
     background-color: rgb(68, 17, 189);
     height: auto;
     width: auto;
-    margin: 0px;
+    color:white;
+    
+}
+
+.gridAreaOne__profile img {
+    width: 44px;
+    margin: 20px;
 }
 .gridAreaOne__duration{
     background-color: darkblue;
     height: auto;
     width: auto;
+    color:white;
+
+}
+.gridAreaOne div{
     margin: 0px;
 }
+
 .gridAreaTwo{
     grid-area: two;
 }
