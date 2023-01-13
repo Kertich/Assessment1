@@ -1,0 +1,43 @@
+.main{
+    display: grid;
+    grid-column: repeat(4, 1fr);
+    grid-row: repeat(4, 1fr);
+    gap: 20px;
+    grid-template-areas: 
+    "one two three four"
+    "one five six seven";
+}
+.gridAreaOne{
+    grid-area: one;
+    
+}
+.gridAreaOne__profile{
+    background-color: rgb(68, 17, 189);
+    height: auto;
+    width: auto;
+    margin: 0px;
+}
+.gridAreaOne__duration{
+    background-color: darkblue;
+    height: auto;
+    width: auto;
+    margin: 0px;
+}
+.gridAreaTwo{
+    grid-area: two;
+}
+.gridAreaThree{
+    grid-area: three;
+}
+.gridAreaFour{
+    grid-area: four;
+}
+.gridAreaFive{
+    grid-area: five;
+}
+.gridAreaSix{
+    grid-area: six;
+}
+.gridAreaSeven{
+    grid-area: seven;
+}
