@@ -7,7 +7,7 @@
         display: grid;
         grid-column: repeat(4, 1fr);
         grid-row: repeat(4, 1fr);
-        gap: 20px;
+        gap: 40px;
         grid-template-areas: 
         "one two three four"
         "one five six seven";
@@ -62,28 +62,58 @@
         grid-area: two;
         background-image: url(./images/icon-work.svg);
         background-color: hsl(15, 100%, 70%);
+        height: 60%;
+        border-radius: 5px;
+        
+    }
+    .gridAreaTwoContent, .gridAreaThreeContent, .gridAreaFourContent, .gridAreaFiveContent, .gridAreaSixContent, .gridAreaSevenContent{
+        background-color: hsl(235, 46%, 20%);
+        margin-top: 40px;
+        height: 80%;
+        border-radius: 5px;
+        padding: 20px;
         
     }
     .gridAreaThree{
         grid-area: three;
         background-color: hsl(195, 74%, 62%);
+        height: 60%;
+        border-radius: 5px;
+        
     }
+   
     .gridAreaFour{
         grid-area: four;
         background-color: hsl(348, 100%, 68%);
+        height: 60%;
+        border-radius: 5px;
     
     }
     .gridAreaFive{
         grid-area: five;
         background-color: hsl(145, 58%, 55%);
+        height: 60%;
+        border-radius: 5px;
     }
     .gridAreaSix{
         grid-area: six;
         background-color: hsl(264, 64%, 52%);
+        height: 60%;
+        border-radius: 5px;
     }
     .girdAreaSeven{
         grid-area: seven;
         background-color: hsl(43, 84%, 65%);
-    }     
+        height: 60%;
+        border-radius: 5px;
+    }  
+    .title{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    } 
+    .title img {
+        padding: 20px;
+    }  
        
 }
